@@ -1,0 +1,136 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+/* Modal Content */
+.modal-content {
+
+  position: fixed;
+  z-index: 1;
+  background-color: #fefefe;
+  margin: 10%;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  padding: .5%;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #3a3636;
+}
+
+.close:hover,
+.close:focus {
+  color: #ca1e1e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #337fea;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  margin: 2%;
+  display: block;
+
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #202cdc;
+  color: white;
+}
+
+.posts {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  width: 105%; 
+  
+
+}
+
+
+.posts > a {
+  display: block;
+  border-radius: 4px;
+  text-align: start;
+  border: 1px solid rgb(144, 133, 133);
+  font-size: larger;
+
+}
+
+.posts p {
+  padding: 10px;
+}
+
+.posts > a:hover p{
+  color : rgb(212, 178, 178);
+  cursor: pointer;
+  
+}
+
+.posts > a p:last-child {
+  font-size: 0.8em;
+  color: #070404;
+}
+.selected-post {
+  background-color: #0004fbe3; /* Set background color to light blue */
+  border: 1px solid rgb(248, 248, 252);
+  border-radius: 10px ;
+  color: #fefefe;
+  padding: 8px;
+  
+}
+.lablename{
+display: flex;
+align-items: center;
+ margin-top: -5%;
+margin-bottom: -2% ; 
+}
+
+.btncl{
+  background-color: rgb(184, 233, 249);
+  border: 2px solid;
+  margin-left: 1%;
+  width: 100px;
+  font-size: 15px;
+  padding-top: .7%;
+  padding-bottom: .7%;
+  color: rgb(5, 7, 8);
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+.modalform{
+
+  display:block;
+  width: 300px;
+  margin-left: 40%;
+}

@@ -1,0 +1,225 @@
+*{
+    font-family: sans-serif;
+  }
+ 
+.innerpart{
+    align-content: first baseline;
+    font-size: 30px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10%;
+    border-bottom: 1px solid rgb(207, 206, 206);
+    margin-top:30%;
+    grid-area: main;
+    margin-right: 90px;
+    
+  }
+
+.sideimage {
+    
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Maintain aspect ratio */
+    float: left; /* Float the image to the left */
+    opacity:0.3;
+  }
+  
+  .firspart
+  {
+  
+    width: 20rem;
+    flex-direction: column;
+    text-align:start;
+    justify-content: center;
+    margin-left: 90px;
+  }
+  
+.accsignin{
+  align-items:end;
+  text-align:end;
+  margin-left: 40%;
+}
+
+  .page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+  }
+  
+  .pageone
+  {
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    border: 2px solid rgb(26, 24, 24);
+    height: 650px;
+
+  
+  }
+
+  label{
+    font-size: smaller;
+    color: rgb(139, 139, 139);
+  }
+
+  input{
+    padding: .6rem;
+    width: 255px;
+    height: 25px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 6%;
+    border: 1px solid rgb(26, 24, 24);  
+
+  }
+  
+input:focus{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 3px #e3e2e2;
+  border-color: blue;
+}
+
+  .lrbtn
+  {
+    background-color: rgb(0, 17, 255);
+    border: none;
+    width: 280px;
+    font-size: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+  
+  }
+  .btned{
+    background-color: rgb(89, 86, 255);
+    border: none;
+    margin-left: 1%;
+    margin-bottom: 0.7%;
+    width: 100px;
+    font-size: 17px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    color: aliceblue;
+    border-radius: 150px;
+    cursor: pointer;
+  }
+  
+.imagecenterlize 
+{
+    position: relative;
+    text-align: center;
+    background-color: rgb(0, 0, 243);
+    color: white;
+    grid-area: main;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    width: 80%;
+  }
+  
+
+  
+header nav {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    width: cover;
+    margin: 1%;  
+    border-bottom: 3px solid;
+    border-color: rgb(7, 10, 13);
+  }
+  
+ 
+  
+  header nav a{
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 40px;
+    border: 1px solid;
+    margin-bottom: 10px;
+  }
+  
+  header nav a.active{
+    background: rgb(247, 230, 230);
+  }
+  
+  main{
+    width:cover;
+    margin: 1%;  
+    width: 93%;
+    
+
+  }
+  
+  .help-layout nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  
+  .help-layout nav a{
+    padding: 10px;
+    border: 2px solid rgb(10, 9, 9);
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .help-layout nav a:hover{
+    border-color: var(--primary);
+  }
+
+
+  .error-message{
+    color: rgb(253, 75, 75);
+  }
+
+
+  .loginsg{
+    align-content:end;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: end;
+    text-align: end;
+    width: 100%;
+    margin-top: 30px;
+    grid-area: header; 
+    text-decoration: none;
+
+
+  }
+
+
+  .linktologin{
+    cursor: pointer;
+    color: blue;
+    font-size: larger;
+    margin-right:20px ;
+    text-decoration: none;
+
+  }
+
+  .temcondi{
+    position:relative;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+  }
+
+  .lablechec{
+    font-size: medium;
+    cursor: pointer;
+  }
+
+
+  .logregheader{
+    margin-left: 50px;
+  }
